@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   keywords:
     "fisioterapia, zumbido, ortopedia, samer, tratament de dor persistente, tontura, consulta com fisioterapeuta",
   openGraph: {
-    images: "../assets/opengraph-image.png",
+    images: "/opengraph-image.png",
     siteName: "Fisio Samer",
   },
 };
