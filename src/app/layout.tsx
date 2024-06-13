@@ -23,6 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <meta property="og:url" content="https://fisiosamer.vercel.app/" />
       <body className={inter.className}>{children}</body>
     </html>
   );
