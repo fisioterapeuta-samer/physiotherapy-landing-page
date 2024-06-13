@@ -12,7 +12,7 @@
 
 .title {
   color: var(--white);
-  text-shadow: 1px 1px 3px var(--font-color);
+  text-shadow: 1px 1px 3px #000;
   font-size: 40px;
   font-weight: bolder;
 }
@@ -22,6 +22,8 @@
   font-weight: bolder;
   text-align: justify;
   max-width: 500px;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 18.72px;
 }
 
 .box {
@@ -47,6 +49,7 @@
 .boxTitle {
   font-size: 20px;
   font-weight: 500;
+  text-shadow: 1px 1px 3px #000;
 }
 
 @media (max-width: 640px) {

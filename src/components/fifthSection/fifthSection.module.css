@@ -75,6 +75,7 @@
   font-size: 40px;
   font-weight: bolder;
   width: 70%;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .articleListWrapper {
@@ -107,6 +108,7 @@
   font-size: 18px;
   line-height: 25px;
   width: 70%;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .articleListWrapper > li img {
