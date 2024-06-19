@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./thirdSection.module.css";
 import Image from "next/image";
 import clinc from "@physiotherapy-client/assets/tratamento.webp";
-import bedHospitalIcon from "@physiotherapy-client/assets/bed-hospital.svg";
+import graphIcon from "@physiotherapy-client/assets/graph.svg";
 import focusIcon from "@physiotherapy-client/assets/focus.svg";
 import certificateIcon from "@physiotherapy-client/assets/cerficate.svg";
 import peopleIcon from "@physiotherapy-client/assets/people.svg";
@@ -65,12 +65,7 @@ function ThirdSection() {
             Abordagem personalizada e holística.
           </li>
           <li className={styles.list}>
-            <Image
-              src={bedHospitalIcon}
-              width={40}
-              height={40}
-              alt="check icon"
-            />
+            <Image src={graphIcon} width={40} height={40} alt="check icon" />
             Técnicas avançadas.
           </li>
           <li className={styles.list}>
