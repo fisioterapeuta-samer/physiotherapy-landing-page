@@ -5,7 +5,7 @@ import background from "@physiotherapy-client/assets/pic2.webp";
 import ThirdSection from "@physiotherapy-client/components/thirdSection";
 import FifthSection from "@physiotherapy-client/components/fifthSection";
 import SecondSection from "@physiotherapy-client/components/secondSection";
-import FirstSection from "@physiotherapy-client/components/firtsSection";
+import FirstSection from "@physiotherapy-client/components/firstSection";
 import Footer from "@physiotherapy-client/components/footer";
 import FloatingButton from "@physiotherapy-client/components/floatingButton";
 

@@ -12,6 +12,7 @@
   padding-inline: 66px;
   padding-block: 50px;
   position: relative;
+  min-height: 500px;
 }
 .secondarySection {
   height: 700px;
