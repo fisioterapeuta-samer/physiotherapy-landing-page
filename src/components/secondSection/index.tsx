@@ -79,7 +79,7 @@ function SecondSection() {
           <div className={styles.titleContainer}>
             <p>{showModal.title}</p>
           </div>
-          <p>{showModal.description}</p>
+          <p className={styles.modalDescription}>{showModal.description}</p>
         </div>
       )}
     </div>

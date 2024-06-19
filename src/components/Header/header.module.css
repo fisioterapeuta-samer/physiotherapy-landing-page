@@ -10,7 +10,7 @@
 }
 
 .mobileNav {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -45,16 +45,18 @@
 }
 
 .mobileNav[data-open="false"] {
+  display: flex;
   transform: translateY(-100%);
 }
 
 .mobileNav[data-open="true"] {
+  display: flex;
   transform: translateY(0%);
 }
 
 .mobileNavMenuWrapper {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: fixed;
   top: 10px;
   right: 10px;

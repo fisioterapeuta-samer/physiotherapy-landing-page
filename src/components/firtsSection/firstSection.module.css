@@ -7,7 +7,7 @@
   justify-content: space-between;
   flex-direction: column;
   position: relative;
-  gap: 20px;
+  gap: 35px;
 }
 
 .title {
@@ -55,6 +55,7 @@
 @media (max-width: 640px) {
   .content {
     width: 100%;
+    gap: 50px;
   }
   .title {
     font-size: 30px;
@@ -85,7 +86,13 @@
   }
   .boxTitle {
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 500;
+  }
+  .box {
+    max-width: fit-content;
+    max-height: fit-content;
+    height: auto;
+    width: auto;
   }
 }
 

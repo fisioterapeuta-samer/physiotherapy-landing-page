@@ -1,16 +1,24 @@
 import React from "react";
 import styles from "./thirdSection.module.css";
 import Image from "next/image";
-import clinc from "@physiotherapy-client/assets/pic1.webp";
-import checkIcon from "@physiotherapy-client/assets/check-icon.svg";
+import clinc from "@physiotherapy-client/assets/tratamento.webp";
+import bedHospitalIcon from "@physiotherapy-client/assets/bed-hospital.svg";
+import focusIcon from "@physiotherapy-client/assets/focus.svg";
+import certificateIcon from "@physiotherapy-client/assets/cerficate.svg";
+import peopleIcon from "@physiotherapy-client/assets/people.svg";
+import shieldIcon from "@physiotherapy-client/assets/shield.svg";
 
 function ThirdSection() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Por que fazer seu tratamento conosco?</h1>
+        <h1 className={styles.title}>
+          Por que sou{" "}
+          <span style={{ color: "var(--secondary)" }}>a melhor escolha</span>{" "}
+          para seu tratamento?
+        </h1>
 
-        <article className={styles.articleListWrapper}>
+        {/* <article className={styles.articleListWrapper}>
           <p>
             Olá, meu nome é Samer. Sou graduado em Fisioterapia pela
             Universidade Veiga de Almeida, no Rio de Janeiro, desde 2006. Além
@@ -45,22 +53,40 @@ function ThirdSection() {
             </span>{" "}
             e <span style={{ color: "var(--secondary)" }}>recuperação</span>.
           </p>
-        </article>
+        </article> */}
 
-        {/* <ul className={styles.listContainer}>
+        <ul className={styles.listContainer}>
           <li className={styles.list}>
-            <Image src={checkIcon} width={40} height={40} alt="check icon" />
-            Use esse campo para listar suas estrategias.
+            <Image src={focusIcon} width={40} height={40} alt="check icon" />
+            Especialização em tratamento de condições complexas.
           </li>
           <li className={styles.list}>
-            <Image src={checkIcon} width={40} height={40} alt="check icon" />
-            Use esse campo para listar suas estrategias.
+            <Image src={peopleIcon} width={40} height={40} alt="check icon" />
+            Abordagem personalizada e holística.
           </li>
           <li className={styles.list}>
-            <Image src={checkIcon} width={40} height={40} alt="check icon" />
-            Use esse campo para listar suas estrategias.
+            <Image
+              src={bedHospitalIcon}
+              width={40}
+              height={40}
+              alt="check icon"
+            />
+            Técnicas avançadas.
           </li>
-        </ul> */}
+          <li className={styles.list}>
+            <Image
+              src={certificateIcon}
+              width={40}
+              height={40}
+              alt="check icon"
+            />
+            Resultados documentados.
+          </li>
+          <li className={styles.list}>
+            <Image src={shieldIcon} width={40} height={40} alt="check icon" />
+            Atualização contínua.
+          </li>
+        </ul>
       </div>
       <div className={styles.imageContainer}>
         <Image

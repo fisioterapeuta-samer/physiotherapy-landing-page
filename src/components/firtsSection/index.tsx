@@ -5,12 +5,8 @@ function FirstSection() {
   return (
     <div className={styles.content}>
       <p className={styles.title}>
-        O atendimento de excelência no tratamento de suas lesões.
-      </p>
-      <p className={styles.subTitle}>
-        Ninguém merece sentir dor, <br /> consulte nossos procedimentos e marque
-        uma consulta com um profissional que atende às necessidades mais
-        especiais.
+        Recupere sua qualidade de vida com tratamentos eficazes para dor
+        crônica, zumbido e tontura.
       </p>
       <a
         href="https://api.whatsapp.com/send?phone=5521966305390&text=Ola, achei seu anuncio na internet, sou [ seu nome :D ], e gostaria de agendar uma avaliação."
