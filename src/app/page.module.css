@@ -42,6 +42,8 @@
   height: 100%;
   filter: opacity(0.7);
   object-position: 50% 40%;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 /* Responsive rules for profile DESKTOP MD */

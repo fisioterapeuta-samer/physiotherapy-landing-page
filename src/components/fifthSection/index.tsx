@@ -20,7 +20,7 @@ function FifthSection() {
   return (
     <>
       {/* TODO: create a modal (global component) and use with this ModalVideo (as children)
-      @see 
+      @see
     */}
       {/* <ModalVideo
         channel="youtube"
@@ -31,7 +31,7 @@ function FifthSection() {
       /> */}
       <div className={styles.container}>
         <div
-          title="Quer saber mais? Da um play!"
+          title="Olá sou o Samer, seu fisioterapeuta!"
           className={styles.profileWrapper}
           // onClick={() => setOpen(true)}
         >
