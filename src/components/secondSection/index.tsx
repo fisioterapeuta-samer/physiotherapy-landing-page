@@ -25,7 +25,7 @@ function SecondSection() {
       image: ear,
       title: "Zumbido",
       description:
-        "O zumbido pode ser debilitante e afetar a sua paz de espírito. Ofereço tratamentos especializados que visam reduzir os sintomas de zumbido, utilizando abordagens integradas que incluem terapia manual, exercícios específicos e estratégias de manejo do estresse.",
+        "O zumbido pode ser debilitante e afetar a sua paz de espírito. Ofereço tratamentos especializados que visam reduzir os sintomas de zumbido, utilizando abordagens integradas que incluem terapia manual, exercícios específicos e estratégias de manejo do zumbido.",
     },
     {
       image: neck,

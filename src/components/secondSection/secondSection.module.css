@@ -83,6 +83,13 @@
 .modalDescription {
   text-align: justify;
   padding-top: 20px;
+  text-align: justify;
+  padding-top: 20px;
+  letter-spacing: -1px;
+  text-wrap: wrap;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 .imagesContainer {
