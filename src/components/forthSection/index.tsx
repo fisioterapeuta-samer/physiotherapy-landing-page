@@ -122,7 +122,7 @@ function ForthSection() {
             </div>
             <div className={style.swiper_slide_label_wrapper}>
               <p className={style.swiper_slide_label}>
-                &quot;As tonturas ficaram mais frequentes, nao conseguia nem
+                &quot;As tonturas se tornaram mais frequentes. Não conseguia nem
                 sair de casa sozinha.&quot;
               </p>
             </div>
