@@ -8,6 +8,7 @@ import SecondSection from "@physiotherapy-client/components/secondSection";
 import FirstSection from "@physiotherapy-client/components/firstSection";
 import Footer from "@physiotherapy-client/components/footer";
 import FloatingButton from "@physiotherapy-client/components/floatingButton";
+import ForthSection from "@physiotherapy-client/components/forthSection";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
         <ThirdSection />
       </section>
       <section id="depoimentos" className={styles.secondarySection}>
-        Carousel de cometarios
+        <ForthSection />
       </section>
       <section id="sobre_mim" className={styles.profileSection}>
         <FifthSection />
