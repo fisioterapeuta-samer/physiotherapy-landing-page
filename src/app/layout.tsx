@@ -15,8 +15,9 @@ export const metadata: Metadata = {
   keywords:
     "fisioterapia, zumbido, ortopedia, samer, tratament de dor persistente, tontura, consulta com fisioterapeuta",
   openGraph: {
-    images: "/opengraph-image.png",
+    locale: "pt-BR",
     siteName: "Fisio Samer",
+    title: "Dr. Samer Fisioterapia e Ortopedia",
   },
 };
 
@@ -27,8 +28,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <meta />
-      <meta property="og:url" content="https://fisiosamer.vercel.app/" />
+      <meta
+        property="og:image"
+        content="https://fisiosamer.com.br/opengraph-image.png"
+      />
+      <meta property="og:url" content="https://fisiosamer.com.br/" />
       <body className={inter.className}>{children}</body>
     </html>
   );
