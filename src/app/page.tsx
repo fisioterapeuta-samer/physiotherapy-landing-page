@@ -16,6 +16,8 @@ export default function Home() {
       <Header />
       <section id="inicio" className={styles.mainSection}>
         <Image
+          height={500}
+          width={1000}
           src={background}
           alt="imagem Samer fisio"
           className={styles.background}
