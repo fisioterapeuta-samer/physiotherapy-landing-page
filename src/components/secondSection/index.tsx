@@ -36,7 +36,7 @@ function SecondSection() {
   ];
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Procedimentos</h1>
+      <p className={styles.title}>Procedimentos</p>
       <div className={styles.imagesContainer}>
         {itemsArray.map((item, index) => (
           <div

@@ -71,12 +71,9 @@ function FifthSection() {
                 {" "}
                 tratamento de dor crônica
               </span>
-              ,
-              <span style={{ color: "var(--secondary)" }}>
-                {" "}
-                zumbido e tontura
-              </span>
-              . Através de abordagens personalizadas e baseadas em evidências,
+              ,<span style={{ color: "var(--secondary)" }}> zumbido </span>e
+              <span style={{ color: "var(--secondary)" }}> tontura</span>.
+              Através de abordagens personalizadas e baseadas em evidências,
               busco melhorar a qualidade de vida de meus pacientes, ajudando-os
               a encontrar{" "}
               <span style={{ color: "var(--secondary)" }}>alívio</span> e{" "}
