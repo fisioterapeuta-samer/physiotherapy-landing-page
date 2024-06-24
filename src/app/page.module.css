@@ -49,6 +49,14 @@
   -webkit-user-drag: none;
 }
 
+/* Responsive rules for DESKTOP LG */
+
+@media (max-width: 1200px) {
+  .mainSection {
+    max-height: initial;
+  }
+}
+
 /* Responsive rules for profile DESKTOP MD */
 @media (max-width: 1100px) {
   .profileSection {
