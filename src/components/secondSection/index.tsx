@@ -25,7 +25,7 @@ function SecondSection() {
       image: ear,
       title: "Zumbido",
       description:
-        "O zumbido pode ser debilitante e afetar a sua paz de espírito. Ofereço tratamentos especializados que visam reduzir os sintomas de zumbido, utilizando abordagens integradas que incluem terapia manual, exercícios específicos e estratégias de manejo do estresse.",
+        "O zumbido pode ser debilitante e afetar a sua paz de espírito. Ofereço tratamentos especializados que visam reduzir os sintomas de zumbido, utilizando abordagens integradas que incluem terapia manual, exercícios específicos e estratégias de manejo do zumbido.",
     },
     {
       image: neck,
@@ -36,7 +36,7 @@ function SecondSection() {
   ];
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Procedimentos</h1>
+      <p className={styles.title}>Procedimentos</p>
       <div className={styles.imagesContainer}>
         {itemsArray.map((item, index) => (
           <div
@@ -79,7 +79,7 @@ function SecondSection() {
           <div className={styles.titleContainer}>
             <p>{showModal.title}</p>
           </div>
-          <p>{showModal.description}</p>
+          <p className={styles.modalDescription}>{showModal.description}</p>
         </div>
       )}
     </div>

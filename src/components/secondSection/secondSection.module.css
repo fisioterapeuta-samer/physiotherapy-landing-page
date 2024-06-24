@@ -18,7 +18,7 @@
 .title {
   color: var(--primary);
   font-size: 40px;
-  font-family: monospace;
+
   font-weight: bolder;
 }
 
@@ -79,6 +79,19 @@
   text-align: center;
   text-shadow: 1px 1px 3px #000;
 }
+
+.modalDescription {
+  text-align: justify;
+  padding-top: 20px;
+  text-align: justify;
+  padding-top: 20px;
+  letter-spacing: -1px;
+  text-wrap: wrap;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
 .imagesContainer {
   display: flex;
   align-items: center;
@@ -90,6 +103,7 @@
 .imageContainer {
   position: relative;
   transition: transform 200ms ease-in;
+  cursor: pointer;
 }
 
 .imageContainer:hover {
@@ -110,18 +124,19 @@
   background-image: linear-gradient(
     180deg,
     var(--primary) 60%,
-    var(--secondary) 100%
+    rgb(233, 140, 2, 0.85) 100%
   );
   margin-top: 10px;
   padding: 25px;
   padding-bottom: 35px;
+  gap: 10px;
   line-height: 20px;
   border-radius: 5px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .modal p {

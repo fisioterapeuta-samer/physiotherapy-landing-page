@@ -3,18 +3,23 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 import phone from "@physiotherapy-client/assets/phone.png";
 import insta from "@physiotherapy-client/assets/instagram.png";
+import Link from "next/link";
 
 function Footer() {
   return (
     <footer className={styles.container}>
-      <div className={styles.content}>
+      <Link href="tel:+5521965292855" className={styles.content}>
         <Image src={phone} alt="phone" width={20} height={20} />
-        <p>000-000</p>
-      </div>
-      <div className={styles.content}>
+        <p>21 96529-2855</p>
+      </Link>
+      <Link
+        href="https://www.instagram.com/samerisbelle/"
+        target="_blank"
+        className={styles.content}
+      >
         <Image src={insta} alt="phone" width={20} height={20} />
         <p> Instagram</p>
-      </div>
+      </Link>
     </footer>
   );
 }

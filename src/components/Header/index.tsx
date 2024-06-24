@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./header.module.css";
 import { useWindowSize } from "@physiotherapy-client/hooks/use-window-size";
-import menuImg from "@physiotherapy-client/assets/menu-mobile.png";
+import menuImg from "@physiotherapy-client/assets/cadapio-menu-mobile.svg";
 import Image from "next/image";
 
 function Header() {
@@ -35,7 +35,11 @@ function Header() {
 
   return (
     <>
-      <nav ref={navRef} className={styles.main} data-open={openMobileNav}>
+      <nav
+        ref={navRef}
+        className={styles.main}
+        {...(isMobile && { "data-open": openMobileNav })}
+      >
         <div className={styles.logoContainer}>
           <h1 className={styles.logo}>
             Fisio<span>Samer</span>

@@ -12,6 +12,7 @@
   padding-inline: 66px;
   padding-block: 50px;
   position: relative;
+  min-height: 500px;
 }
 .secondarySection {
   height: 700px;
@@ -40,6 +41,9 @@
   width: 100%;
   height: 100%;
   filter: opacity(0.7);
+  object-position: 50% 40%;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 /* Responsive rules for profile DESKTOP MD */

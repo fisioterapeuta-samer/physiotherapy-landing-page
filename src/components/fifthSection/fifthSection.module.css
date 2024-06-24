@@ -33,6 +33,8 @@
   width: 525px;
   height: 586px;
   border-radius: 0 0 150px 150px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 /**/
@@ -86,6 +88,7 @@
   row-gap: 10px;
   width: 100%;
   text-align: justify;
+  hyphens: auto;
 }
 
 .articleListWrapper > li {

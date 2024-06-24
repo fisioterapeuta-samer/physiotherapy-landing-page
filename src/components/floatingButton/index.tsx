@@ -8,7 +8,7 @@ function FloatingButton() {
     <a
       title="Tire suas dúvidas, estamos disponíveis!"
       className={styles.container}
-      href="https://api.whatsapp.com/send?phone=5521966305390&text=Ola!"
+      href="https://api.whatsapp.com/send?phone=5521991558755&text=Ola, Samer! Achei seu contato pelo seu site, e tenho uma pergunta."
       target="_blank"
     >
       <p>Fale conosco</p>

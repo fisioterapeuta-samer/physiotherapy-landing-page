@@ -1,7 +1,8 @@
 .container {
-  width: 200px;
+  width: auto;
   height: 50px;
   border-radius: 60px;
+  padding: 10px 10px 10px 20px;
   position: fixed;
   right: 20px;
   bottom: 40px;
@@ -20,6 +21,8 @@
 
 .container img {
   animation: 6s ease-in-out 0s infinite normal none running shaking;
+  width: 32px;
+  height: 32px;
 }
 
 .container p {
