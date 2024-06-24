@@ -116,7 +116,7 @@
   color: var(--secondary);
   text-wrap: nowrap;
   font-size: 40px;
-  text-shadow: 1px 1px 1px var(--secondary);
+  text-shadow: 0.1px 0.1px 0.1px #000;
 }
 
 .logo span {
@@ -125,7 +125,7 @@
   color: white;
   width: auto;
   border-radius: 5px;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 5px 6px 6px #000;
 }
 
 .logoContainer {
