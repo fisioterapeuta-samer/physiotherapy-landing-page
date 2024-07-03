@@ -28,7 +28,7 @@ export default function Home() {
       <section id="procedimentos" className={styles.secondarySection}>
         <SecondSection />
       </section>
-      <section id="diferencias" className={styles.mainSection}>
+      <section id="diferenciais" className={styles.mainSection}>
         <ThirdSection />
       </section>
       <section id="depoimentos" className={styles.secondarySection}>
