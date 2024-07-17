@@ -3,10 +3,8 @@
 import React, { useState } from "react";
 import styles from "./secondSection.module.css";
 import Image from "next/image";
-import BackImage from "@physiotherapy-client/assets/pic4.webp";
-import ear from "@physiotherapy-client/assets/ear.webp";
-import neck from "@physiotherapy-client/assets/pic5.webp";
-import ReactModal from "react-modal";
+import closeIcon from "@physiotherapy-client/assets/close-icon.svg";
+import { itemsArray } from "./second-section.data";
 
 function SecondSection() {
   const [showModal, setShowModal] = useState({
@@ -14,26 +12,7 @@ function SecondSection() {
     description: "",
     title: "",
   });
-  const itemsArray = [
-    {
-      image: BackImage,
-      title: "Dor persistente",
-      description:
-        "Compreendo como a dor crônica pode impactar todas as áreas da sua vida. Utilizo técnicas avançadas de fisioterapia e quiropraxia para aliviar a dor e restaurar a funcionalidade, permitindo que você retome suas atividades diárias com maior conforto.",
-    },
-    {
-      image: ear,
-      title: "Zumbido",
-      description:
-        "O zumbido pode ser debilitante e afetar a sua paz de espírito. Ofereço tratamentos especializados que visam reduzir os sintomas de zumbido, utilizando abordagens integradas que incluem terapia manual, exercícios específicos e estratégias de manejo do zumbido.",
-    },
-    {
-      image: neck,
-      title: "Tontura",
-      description:
-        "A tontura pode ter várias causas e pode ser extremamente desconfortável. Com minha expertise, realizo uma avaliação detalhada para identificar a origem da tontura e aplico técnicas eficazes para o tratamento, ajudando você a recuperar o equilíbrio e a segurança em suas atividades diárias.",
-    },
-  ];
+
   return (
     <div className={styles.container}>
       <p className={styles.title}>Procedimentos</p>
@@ -68,14 +47,16 @@ function SecondSection() {
       </div>
       {showModal.open && (
         <div className={styles.modal}>
-          <div
+          <button
+            type="button"
+            title="fechar modal"
             className={styles.closeButton}
             onClick={() => {
               setShowModal({ open: false, description: "", title: "" });
             }}
           >
-            <p>X</p>
-          </div>
+            <Image src={closeIcon} alt="fechar" />
+          </button>
           <div className={styles.titleContainer}>
             <p>{showModal.title}</p>
           </div>

@@ -118,8 +118,9 @@
 
 .modal {
   position: absolute;
-  top: 30%;
-  max-width: 500px;
+  top: 20%;
+  overflow-y: auto;
+  max-width: 550px;
   max-height: 500px;
   background-image: linear-gradient(
     180deg,
@@ -127,29 +128,62 @@
     rgb(233, 140, 2, 0.85) 100%
   );
   margin-top: 10px;
-  padding: 25px;
-  padding-bottom: 35px;
+  padding: 10px 25px 35px;
   gap: 10px;
   line-height: 20px;
   border-radius: 5px;
-  display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
   opacity: 1;
 }
 
-.modal p {
-  font-size: 18px;
-  line-height: 25px;
+/* This will affect the entire page */
+.modal::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
 }
+
+.modal::-webkit-scrollbar-track {
+  background: var(--primary); /* color of the tracking area */
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background: var(--secondary); /* color of the scroll thumb */
+}
+
+.modal::-webkit-scrollbar-thumb:hover {
+  background: #ff9900; /* color of the scroll thumb when hovering */
+}
+
 .closeButton {
-  width: 100%;
+  all: unset;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10px;
+  margin-left: auto;
   cursor: pointer;
+  border-radius: 50px;
 }
+
+.closeButton:hover {
+  background: #076360;
+}
+
+.closeButton:active {
+  background: #007672;
+}
+
+.closeButton img {
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  margin: auto;
+
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 @media (max-width: 870px) {
   .title {
     font-size: 30px;
