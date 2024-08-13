@@ -47,6 +47,15 @@
     none running glowingEffect;
   box-shadow: 0 0 0 2px var(--secondary);
 }
+
+.box:hover {
+  filter: brightness(90%);
+}
+
+.box:active {
+  filter: brightness(110%);
+}
+
 .boxTitle {
   font-size: 20px;
   font-weight: 500;

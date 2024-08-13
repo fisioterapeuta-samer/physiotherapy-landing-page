@@ -3,7 +3,13 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow } from "swiper/modules";
+import {
+  EffectCoverflow,
+  Keyboard,
+  Scrollbar,
+  Navigation,
+  Pagination,
+} from "swiper/modules";
 import slide_image_1 from "@physiotherapy-client/assets/slide_image_1.webp";
 import slide_image_2 from "@physiotherapy-client/assets/slide_image_2.webp";
 import slide_image_3 from "@physiotherapy-client/assets/slide_image_3.webp";
@@ -12,6 +18,8 @@ import slide_image_5 from "@physiotherapy-client/assets/slide_image_5_new.webp";
 import slide_image_6 from "@physiotherapy-client/assets/slide_image_6.webp";
 import verifiedIcon from "@physiotherapy-client/assets/certificate_primary.svg";
 import playBoxIcon from "@physiotherapy-client/assets/play_box.svg";
+import next from "@physiotherapy-client/assets/next-button.svg";
+import previous from "@physiotherapy-client/assets/previous-button.svg";
 import ModalVideo from "react-modal-video";
 import style from "./forthSection.module.css";
 import { useWindowSize } from "@physiotherapy-client/hooks/use-window-size";
@@ -56,7 +64,8 @@ function ForthSection() {
           nextEl: ".swiper_button_next",
           prevEl: ".swiper_button_prev",
         }}
-        modules={[EffectCoverflow]}
+        pagination={true}
+        modules={[EffectCoverflow, Navigation]}
         className={`${style.swiper_container}`}
       >
         <SwiperSlide
@@ -262,6 +271,14 @@ function ForthSection() {
           </div>
         </SwiperSlide>
       </Swiper>
+      <div className={style.controllers}>
+        <button className={`swiper_button_prev ${style.swiper_button}`}>
+          <Image src={previous} alt="previous" width={30} height={30} />
+        </button>
+        <button className={`swiper_button_next ${style.swiper_button}`}>
+          <Image src={next} alt="next" width={30} height={30} />
+        </button>
+      </div>
     </div>
   );
 }
