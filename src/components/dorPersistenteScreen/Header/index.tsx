@@ -74,7 +74,7 @@ function Header() {
               Procedimentos
             </button>
           </a>
-          <a href="#diferenciais">
+          <a href="#diferencias">
             <button
               className={styles.buttonStyle}
               onClick={() => setOpenMobileNav(false)}

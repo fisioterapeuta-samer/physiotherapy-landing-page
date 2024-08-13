@@ -1,14 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Header from "@physiotherapy-client/components/Header";
+import Header from "@physiotherapy-client/components/mainScreen/Header";
 import background from "@physiotherapy-client/assets/landing-bg.webp";
-import ThirdSection from "@physiotherapy-client/components/thirdSection";
-import FifthSection from "@physiotherapy-client/components/fifthSection";
-import SecondSection from "@physiotherapy-client/components/secondSection";
-import FirstSection from "@physiotherapy-client/components/firstSection";
-import Footer from "@physiotherapy-client/components/footer";
-import FloatingButton from "@physiotherapy-client/components/floatingButton";
-import ForthSection from "@physiotherapy-client/components/forthSection";
+import ThirdSection from "@physiotherapy-client/components/mainScreen/thirdSection";
+import FifthSection from "@physiotherapy-client/components/mainScreen/fifthSection";
+import SecondSection from "@physiotherapy-client/components/mainScreen/secondSection";
+import FirstSection from "@physiotherapy-client/components/mainScreen/firstSection";
+import Footer from "@physiotherapy-client/components/mainScreen/footer";
+import FloatingButton from "@physiotherapy-client/components/mainScreen/floatingButton";
+import ForthSection from "@physiotherapy-client/components/mainScreen/forthSection";
 
 export default function Home() {
   return (

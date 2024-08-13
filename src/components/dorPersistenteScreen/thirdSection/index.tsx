@@ -46,7 +46,13 @@ function ThirdSection() {
         </ul>
       </div>
       <div className={styles.imageContainer}>
-        <Image src={clinc} className={styles.image} alt="img" />
+        <Image
+          src={clinc}
+          width={400}
+          height={400}
+          className={styles.image}
+          alt="img"
+        />
       </div>
     </div>
   );
